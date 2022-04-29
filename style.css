@@ -21,3 +21,29 @@ header h1 {
   text-align: center;
   text-shadow: 9px 5px 5px #00abff;
 }
+
+.buttons {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  }
+.buttons li {
+  height: 50px;
+  width: 200px;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #222;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  color: white;
+}
+
+a:link { text-decoration: none; color: white;}
+a:visited { text-decoration: none; color: white;} 
+a:hover { text-decoration: none; color: white;}
+a:active { text-decoration: none; color: white;}
+
