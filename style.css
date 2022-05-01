@@ -22,25 +22,48 @@ header h1 {
   text-shadow: 9px 5px 5px #00abff;
 }
 
-.buttons {
+.button_container {
   display: flex;
-  list-style: none;
-  text-align: center;
   justify-content: space-around;
-  }
-.buttons li {
-  height: 50px;
-  width: 200px;
 }
 
-.buttons button {
-  border: none;
-  cursor: pointer;
+.buttons {
+  text-align: center;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+}
+
+.buttons {
   font-size: 20px;
   background-color: #222;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: white; /* on pourra supprimer une fois qu'il y aura les liens */
+  padding: 17px 50px;
+  margin: 10px;
+  cursor: pointer;
 }
+
+.buttons:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 28vw; 
+  width: 34vw;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.buttons:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-35%) rotate(45deg);
+  transform: translateX(-9%) translateY(-35%) rotate(45deg);
+}
+
+.buttons span { position: relative; z-index: 1;}
 
 a:link { text-decoration: none; color: white;}
 a:visited { text-decoration: none; color: white;} 
