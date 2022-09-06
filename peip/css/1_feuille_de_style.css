@@ -1,0 +1,55 @@
+h1 {
+  color: red;
+  background-color: black;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  color: red;
+  font-weight: bold;
+}
+
+strong {
+  font-style: italic;
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+#pink {
+  color: magenta;
+}
+
+#pink li {
+  color: black;
+}
+
+#purple {
+  color: purple;
+}
+
+#css {
+  color: green;
+}
+
+#certains {
+  font-weight: bold;
+  color: orange;
+}
+
+#xhtml {
+  font-variant: small-caps;
+  text-transform: capitalize;
+  color: green;
+}
+
+#iden {
+  color: blue;
+  text-decoration: underline;
+}

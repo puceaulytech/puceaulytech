@@ -1,0 +1,58 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+}
+
+/**** ASTUCE ****/
+/* border: solid 2px black; est équivalente à :
+/* border-style: solid;
+/* border-color: black;
+/* border-width: 2px;
+/* C'est une règle raccourci. */
+
+#part_1 p {
+  border: solid 2px black;
+  background-color: lightgrey;
+  width: 200px;
+}
+
+#part_2 p {
+  width: 200px;
+  margin: -2px;
+}
+
+#part_2 p:first-child {
+  border: solid 2px red;
+  background-color: pink;
+}
+
+#part_2 p {
+  border: solid 2px blue;
+  background-color: lightblue;
+}
+
+#part_2 p:last-child {
+  border: solid 2px green;
+  background-color: lightgreen;
+}
+
+/***************************/
+/* Vos modifications ici : */
+/***************************/
+
+#part_1 p {
+  padding: 10px 20px 30px 40px;
+  margin: 10px 20px 30px 40px;
+}
+
+#part_2 p {
+}
