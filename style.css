@@ -65,8 +65,8 @@ header h1 {
 
 .buttons span { position: relative; z-index: 1;}
 
-a:link { text-decoration: none; color: white;}
-a:visited { text-decoration: none; color: white;} 
-a:hover { text-decoration: none; color: white;}
-a:active { text-decoration: none; color: white;}
+a.buttons:link { text-decoration: none; color: white;}
+a.buttons:visited { text-decoration: none; color: white;} 
+a.buttons:hover { text-decoration: none; color: white;}
+a.buttons:active { text-decoration: none; color: white;}
 
